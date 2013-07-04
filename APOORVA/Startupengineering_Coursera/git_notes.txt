@@ -1,0 +1,18 @@
+mkdir GHide
+cd GHide
+git init
+git remote add origin git@github.com:osamarao/GHide.git
+# At this point, copy your existing files into the GHide folder.
+git add .
+git commit -m 'Adding initial files.'
+git push -u origin master
+
+
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/nexusapoorvacus/myPrograms.git
+git push -u origin master
+
